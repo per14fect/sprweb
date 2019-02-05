@@ -1,2 +1,3 @@
 rootProject.name = 'sprweb'
+include 'prim', 'rest'
 
