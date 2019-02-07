@@ -27,4 +27,8 @@ dependencies {
     compile "ch.qos.logback:logback-classic:$logbackVersion"
     compileOnly "org.projectlombok:lombok:1.18.4"
 
+    compile "org.apache.tomcat:tomcat-servlet-api:$tomcatVersion"
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.9.0'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.0'
+
 }

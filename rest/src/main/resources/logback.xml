@@ -2,7 +2,8 @@
 
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
-            <pattern>%d{dd/MM HH:mm:ss.SSS} %-5level %logger{36} - %msg%n</pattern>
+            <charset>utf-8</charset>
+            <pattern>%d{dd/MM HH:mm:ss.SSS} %-5level %logger{36}.%method - %msg%n</pattern>
         </encoder>
     </appender>
 
